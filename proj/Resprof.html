@@ -1,0 +1,367 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>American</title>
+    <link rel="stylesheet" type="text/css" href="styles/styl.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<header>
+    <p align="center">Admin &nbsp;&nbsp;&nbsp;<i class="fa fa-cogs"></i></p></i>
+</header>
+<nav>
+    <ul>
+
+        <li ><a href="ahome.html">Reservations </a>
+        </li>
+        <li><a href="Resprof.html">Schedule</a>
+        </li>
+        <li><a href="Assign.html">Options</a>
+        </li>
+        <li><a href="admin.html">Logout</a>
+        </li>
+
+
+    </ul>
+</nav>
+
+
+<section >
+    <div class="main">
+
+        <section>
+            <p>
+                Select/Change the Schedule below:
+                <form>
+                    <fieldset>
+                        <legend><h1>Schedule <i class="fa fa-calendar"></i></h1> </legend>
+                        <table align="center">
+                            <tr>
+                                <th>Day</th>
+                                <th>Start Time</th>
+                                <th>End Time</th>
+                                <th>Day Off</th>
+                            </tr>
+                            <tr>
+                                <td><label>Monday</label></td>
+                                <td><input list="stim">
+                                    <datalist id="stim">
+                                        <option value="9:00 am" selected></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm"></option>
+                                    </datalist>
+                                </td>
+                                <td><input list="etim">
+                                    <datalist id="etim">
+                                        <option value="9:00 am" ></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm" selected></option>
+                                    </datalist>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="day off">
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td><label>Tuesday</label></td>
+                                <td><input list="st">
+                                    <datalist id="st">
+                                        <option value="9:00 am" selected></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm"></option>
+                                    </datalist>
+                                </td>
+                                <td><input list="et">
+                                    <datalist id="et">
+                                        <option value="9:00 am" ></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm" selected></option>
+                                    </datalist>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="day off">
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td><label>Wednesday</label></td>
+                                <td><input list="sm">
+                                    <datalist id="sm">
+                                        <option value="9:00 am" selected></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm"></option>
+                                    </datalist>
+                                </td>
+                                <td><input list="em">
+                                    <datalist id="em">
+                                        <option value="9:00 am" ></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm" selected></option>
+                                    </datalist>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="day off">
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td><label>Thursday</label></td>
+                                <td><input list="sth">
+                                    <datalist id="sth">
+                                        <option value="9:00 am" selected></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm"></option>
+                                    </datalist>
+                                </td>
+                                <td><input list="eth">
+                                    <datalist id="eth">
+                                        <option value="9:00 am" ></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm" selected></option>
+                                    </datalist>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="day off">
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td><label>Friday</label></td>
+                                <td><input list="sfr">
+                                    <datalist id="sfr">
+                                        <option value="9:00 am" selected></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm"></option>
+                                    </datalist>
+                                </td>
+                                <td><input list="efr">
+                                    <datalist id="efr">
+                                        <option value="9:00 am" ></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm" selected></option>
+                                    </datalist>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="day off">
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td><label>Saturday</label></td>
+                                <td><input list="sst">
+                                    <datalist id="sst">
+                                        <option value="9:00 am" selected></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm"></option>
+                                    </datalist>
+                                </td>
+                                <td><input list="est">
+                                    <datalist id="est">
+                                        <option value="9:00 am" ></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm" ></option>
+                                    </datalist>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="day off">
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td><label>Sunday</label></td>
+                                <td><input list="ss">
+                                    <datalist id="ss">
+                                        <option value="9:00 am" ></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm"></option>
+                                    </datalist>
+                                </td>
+                                <td><input list="es">
+                                    <datalist id="es">
+                                        <option value="9:00 am" ></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm" ></option>
+                                    </datalist>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="day off">
+                                </td>
+
+                            </tr>
+                        </table>
+            <p align="center">
+                <input type="submit"  class="but1" value="Save">
+                <input type="submit"  class="but1" value="Cancel">
+            </p>
+            </fieldset>
+
+            </form>
+            </p>
+
+
+        </section>
+
+    </div>
+
+</section>
+
+<footer>
+    <div id="ws-powered">
+        <p>© 2015 Soumith Boggarapu, All rights reserved.
+            <i class="fa fa-facebook-official"></i>&nbsp;&nbsp;
+
+            <i class="fa fa-twitter"></i>
+        </p>
+
+    </div>
+
+</footer>
+</body>
+
+
+</html>

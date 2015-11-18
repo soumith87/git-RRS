@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>American</title>
+    <link rel="stylesheet" type="text/css" href="styles/styl.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<header>
+    <p align="center">Admin &nbsp;&nbsp;&nbsp;<i class="fa fa-cogs"></i></p></i>
+</header>
+<nav>
+    <ul>
+
+        <li ><a href="ahome.html">Reservations </a>
+        </li>
+        <li><a href="Resprof.html">Schedule</a>
+        </li>
+        <li><a href="Assign.html">Options</a>
+        </li>
+        <li><a href="admin.html">Logout</a>
+        </li>
+
+
+    </ul>
+</nav>
+
+<section >
+    <div class="main">
+
+        <section>
+            <p>
+                Add/Update a Reservation:
+                <form>
+                    <fieldset>
+                        <legend><h1>Add/Update <i class="fa fa-pencil-square"></i></h1> </legend>
+                        <table align="center">
+                            <tr>
+                                <td><label>From date/time</label></td>
+                                <td><input type="date" value="date"></td>
+                                <td><input list="time">
+                                    <datalist id="time">
+                                        <option value="9:00 am" selected></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm"></option>
+
+                                    </datalist>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label>To date/time</label></td>
+                                <td><input type="date" value="date"></td>
+                                <td><input list="ttime">
+                                    <datalist id="ttime">
+                                        <option value="9:00 am" selected></option>
+                                        <option value="10:00 am"></option>
+                                        <option value="11:00 am"></option>
+                                        <option value="12:00 pm"></option>
+                                        <option value="1:00 pm"></option>
+                                        <option value="2:00 pm"></option>
+                                        <option value="3:00 pm"></option>
+                                        <option value="6:00 pm"></option>
+                                        <option value="7:00 pm"></option>
+                                        <option value="8:00 pm"></option>
+                                        <option value="9:00 pm"></option>
+                                        <option value="10:00 pm"></option>
+                                        <option value="11:00 pm"></option>
+
+                                    </datalist>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label>Status</label></td>
+                                <td><input list="tz">
+                                    <datalist id="tz">
+                                        <option value="Confirmed" selected></option>
+                                        <option value="Pending"></option>
+                                        <option value="Enquiry"></option>
+                                        <option value="Cancelled"></option>
+                                    </datalist></td>
+                            </tr>
+
+                            <tr>
+                                <td> <label>Unique ID</label></td>
+                                <td>
+                                    <input type="text" value="Id">
+                                     </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <label>Deposit Fee</label>
+                                </td>
+                                <td><input list="dp" value="50$">
+                                    <datalist id="dp">
+                                        <option value="50$" selected></option>
+                                        <option value="100$"></option>
+                                    </datalist> </td>
+                            </tr>
+                            <tr>
+
+                                <td>
+                                    <label>Reserved before</label>
+                                </td>
+                                <td><input list="rb">
+                                    <datalist id="rb">
+                                        <option value="1hr" selected></option>
+                                        <option value="2hr" selected></option>
+                                        <option value="3hr"></option>
+                                    </datalist> </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label>Deposit Paid</label>
+                                </td>
+                                <td><input list="p">
+                                    <datalist id="p">
+                                        <option value="Yes" selected></option>
+                                        <option value="No" selected></option>
+                                    </datalist> </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label>Payment through</label>
+                                </td>
+                                <td><input list="w">
+                                    <datalist id="w">
+                                        <option value="Cash" selected></option>
+                                        <option value="Credit" selected></option>
+                                        <option value="Paypal" selected></option>
+                                    </datalist> </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>People</label>
+                                </td>
+                                <td> <input list="Peop">
+                                    <datalist id="Peop">
+                                        <option value="1"></option>
+                                        <option value="2"></option>
+                                        <option value="3"></option>
+                                        <option value="4"></option>
+                                        <option value="5"></option>
+                                        <option value="6"></option>
+                                        <option value="7"></option>
+                                        <option value="8"></option>
+                                        <option value="9"></option>
+                                        <option value="10"></option>
+                                        <option value="11"></option>
+                                        <option value="12"></option>
+                                    </datalist>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label>Table</label>
+                                </td>
+                                <td> <input list="People">
+                                    <datalist id="People">
+                                        <option value="1"></option>
+                                        <option value="2"></option>
+                                        <option value="3"></option>
+                                        <option value="4"></option>
+                                        <option value="5"></option>
+                                        <option value="6"></option>
+                                        <option value="7"></option>
+                                        <option value="8"></option>
+                                        <option value="9"></option>
+                                        <option value="10"></option>
+                                        <option value="11"></option>
+                                        <option value="12"></option>
+                                    </datalist>
+                                </td>
+                            </tr>
+
+
+                        </table>
+            <p align="center">
+                <input type="submit"  class="but1" value="Save">
+                <input type="submit"  class="but1" value="Cancel">
+            </p>
+            </fieldset>
+
+            </form>
+            </p>
+
+
+        </section>
+
+    </div>
+
+</section>
+
+<footer>
+    <div id="ws-powered">
+        <p>© 2015 Soumith Boggarapu, All rights reserved.
+            <i class="fa fa-facebook-official"></i>&nbsp;&nbsp;
+
+            <i class="fa fa-twitter"></i>
+        </p>
+
+    </div>
+
+</footer>
+</body>
+
+
+</html>

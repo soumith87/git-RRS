@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>American</title>
+    <link rel="stylesheet" type="text/css" href="styles/styl.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<header>
+    <p align="center">Admin &nbsp;&nbsp;&nbsp;<i class="fa fa-cogs"></i></p></i>
+</header>
+<nav>
+    <ul>
+
+        <li ><a href="ahome.html">Reservations </a>
+        </li>
+        <li><a href="Resprof.html">Schedule</a>
+        </li>
+        <li><a href="Assign.html">Options</a>
+        </li>
+        <li><a href="admin.html">Logout</a>
+        </li>
+
+
+    </ul>
+</nav>
+
+
+<section >
+    <div class="main">
+
+        <section>
+            <p>
+                Select/Change the options below:
+    <form>
+            <fieldset>
+                <legend><h1>Options <i class="fa fa-wrench"></i></h1> </legend>
+            <table align="center">
+           <tr>
+            <td><label>Date Format</label></td>
+            <td><input list="Dateformat">
+            <datalist id="Dateformat">
+                <option value="mm/dd/yy" selected></option>
+                <option value="dd/mm/yy"></option>
+                <option value="yy/mm/dd"></option>
+
+            </datalist>
+            </td>
+            </tr>
+        <tr>
+            <td><label>Time Zone</label></td>
+            <td><input list="tz">
+            <datalist id="tz">
+                <option value="EST" selected></option>
+                <option value="CST"></option>
+                <option value="GMT"></option>
+            </datalist></td>
+        </tr>
+
+            <tr>
+           <td> <label>Start Date</label></td>
+                <td>
+            <input list="st">
+            <datalist id="st">
+                <option value="Monday" selected></option>
+                <option value="Tuesday"></option>
+                <option value="Wednesday"></option>
+                <option value="Thursday"></option>
+                <option value="Friday"></option>
+                <option value="saturday"></option>
+                <option value="Sunday"></option>
+            </datalist> </td>
+            </tr>
+            <tr>
+               <td> <label>E-Mail</label></td>
+            <td><input list="ml">
+            <datalist id="ml">
+                <option value="SMTP"></option>
+                <option value="Outlook" selected></option>
+                <option value="PHP"></option>
+            </datalist> </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Deposit</label>
+                </td>
+                <td><input list="dp">
+                <datalist id="dp">
+                    <option value="50$" selected></option>
+                    <option value="100$"></option>
+                </datalist> </td>
+            </tr>
+                <tr>
+
+                    <td>
+                        <label>Reserve before</label>
+                    </td>
+                    <td><input list="rb">
+                        <datalist id="rb">
+                            <option value="1hr" selected></option>
+                            <option value="2hr" selected></option>
+                            <option value="3hr"></option>
+                        </datalist> </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Allow payments through Paypal</label>
+                    </td>
+                    <td><input list="p">
+                        <datalist id="p">
+                            <option value="Yes" selected></option>
+                            <option value="No" selected></option>
+                        </datalist> </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Payment through Wire</label>
+                    </td>
+                    <td><input list="w">
+                        <datalist id="w">
+                            <option value="Yes" selected></option>
+                            <option value="No" selected></option>
+                        </datalist> </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>URL of the website to be redirected after payment</label>
+                    </td>
+                    <td><input type="url">
+                    </td>
+                </tr>
+
+
+        </table>
+                <p align="center">
+                <input type="submit"  class="but1" value="Save">
+                <input type="submit"  class="but1" value="Cancel">
+        </p>
+</fieldset>
+
+        </form>
+            </p>
+
+
+        </section>
+
+    </div>
+
+</section>
+
+<footer>
+    <div id="ws-powered">
+        <p>© 2015 Soumith Boggarapu, All rights reserved.
+            <i class="fa fa-facebook-official"></i>&nbsp;&nbsp;
+
+            <i class="fa fa-twitter"></i>
+        </p>
+
+    </div>
+
+</footer>
+</body>
+
+
+</html>
